@@ -15,4 +15,9 @@ public interface UsuarioRepository extends JpaRepository<Usuario, Integer> {
     boolean existsByCpfAndIdNot(String cpf, Integer id);
 
     List<Usuario> findByDataNascimentoAfter(LocalDate dataNascimento);
+
+
+
+
+
 }
